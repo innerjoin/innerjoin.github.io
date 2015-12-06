@@ -30,9 +30,9 @@ force-https: True
 
 lang: "en"
 author: "Lukas Steiger"
-title: "{ Lukas Steiger }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+title: ">> Lukas Steiger <<"
+description: "Personal blog and website of Lukas Steiger. All opinions expressed in this blog are mine and are not related to any institution or company im related to or blogging about."
+keywords: ""
 favicon: "/img/favicon.ico"
 404-img: "/img/labtocat.png"
 
@@ -52,9 +52,9 @@ dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
+type-speed: 15
 start-delay: 200
-delete-delay: 5000
+delete-delay: 6000
 lines: # You can add HTML Tags in the Text
   - text: "To iterate is human, to recurse divine. - L. Peter Deutsch"
   - text: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. - Bill Gates"
@@ -65,16 +65,16 @@ me-img: "/img/jetpacktocat.png"
 # Web app mode #
 ################
 
-web-app-mode: True
+web-app-mode: False
 
 # Icons for Web App mode
 
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
+# icon-36p: ""
+# icon-48p: ""
+# icon-72p: ""
+# icon-96p: ""
+# icon-144p: ""
+# icon-192p: ""
 
 ########
 # Blog #
@@ -104,12 +104,12 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/hsr-campus.png"
     date: "September 2014 - Today"
-    description: "Computer Science part-time studies @ University of Applied Sciences Rapperswil & part-time job as Software Engineer @ Siemens Building Technologies"
-  - image: "/img/timeline/baracktocat.jpg"
+    description: "Computer Science part-time studies @ <a target="_blank" href="http://hsr.ch">University of Applied Sciences Rapperswil</a> & part-time job as Software Engineer @ <a target="_blank" href="http://siemens.ch/buildingtechnologies">Siemens Building Technologies</a>"
+  - image: "/img/timeline/siemens-parking.jpg"
     date: "August 2010 - August 2014"
-    description: "Computer Science apprenticeship @ Siemens Building Technologies"
+    description: "Computer Science apprenticeship @ <a target="_blank" href="http://siemens.ch/buildingtechnologies">Siemens Building Technologies</a>"
 
 # First image of the Timeline
 
@@ -135,7 +135,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: ""
 
 ################################################################################
 
