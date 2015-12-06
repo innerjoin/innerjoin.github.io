@@ -34,7 +34,7 @@ title: ">> Lukas Steiger <<"
 description: "Personal blog and website of Lukas Steiger. All opinions expressed in this blog are mine and are not related to any institution or company im related to or blogging about."
 keywords: ""
 favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
+404-img: "/img/me.jpg"
 
 ################
 # Header layout #
@@ -59,7 +59,7 @@ lines: # You can add HTML Tags in the Text
   - text: "To iterate is human, to recurse divine. - L. Peter Deutsch"
   - text: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. - Bill Gates"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/me.jpg"
 
 ################
 # Web app mode #
@@ -113,7 +113,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/me.jpg"
 
 ###########
 # Contact #
