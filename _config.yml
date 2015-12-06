@@ -106,10 +106,10 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/hsr-campus.jpg"
     date: "September 2014 - Today"
-    description: "Computer Science part-time studies @ <a target="_blank" href="http://hsr.ch">University of Applied Sciences Rapperswil</a> & part-time job as Software Engineer @ <a target="_blank" href="http://siemens.ch/buildingtechnologies">Siemens Building Technologies</a>"
+    description: "Computer Science part-time studies @ <a target=\"_blank\" href=\"http://hsr.ch\">University of Applied Sciences Rapperswil</a> & part-time job as Software Engineer @ <a target=\"_blank\" href=\"http://siemens.ch/buildingtechnologies\">Siemens Building Technologies</a>"
   - image: "/img/timeline/siemens-parking.jpg"
     date: "August 2010 - August 2014"
-    description: "Computer Science apprenticeship @ <a target="_blank" href="http://siemens.ch/buildingtechnologies">Siemens Building Technologies</a>"
+    description: "Computer Science apprenticeship @ <a target=\"_blank\" href=\"http://siemens.ch/buildingtechnologies\">Siemens Building Technologies</a>"
 
 # First image of the Timeline
 
