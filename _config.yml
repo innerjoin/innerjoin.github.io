@@ -147,7 +147,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
-  Contact: 'contact'
+  Skills: 'skills'
 
 # Exclusion list from the generated _site
 
