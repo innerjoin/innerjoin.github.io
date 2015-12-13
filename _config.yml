@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "http://www.lukassteiger.ch"
+url: "www.lukassteiger.ch"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -32,7 +32,7 @@ lang: "en"
 author: "Lukas Steiger"
 title: "Lukas Steiger"
 description: "Personal blog and website of Lukas Steiger. All opinions expressed in this blog are mine and are not related to any institution or company I'm related to or blogging about."
-keywords: ""
+keywords: "Lukas, Steiger, programming, programmer, LukasSteiger, Switzerland, Einsiedeln"
 favicon: ""
 404-img: "/img/me.jpg"
 
@@ -119,7 +119,8 @@ timeline-img: "/img/me.jpg"
 # Contact #
 ###########
 
-email: ""
+email: "lukas.steiger@hotmail.com"
+formspreeUrl: "http://formspree.io/lukas.steiger@hotmail.com"
 
 ##################
 # Social Buttons #
@@ -146,8 +147,9 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  Career: 'timeline'
   Skills: 'skills'
+  Contact: 'contact'
 
 # Exclusion list from the generated _site
 

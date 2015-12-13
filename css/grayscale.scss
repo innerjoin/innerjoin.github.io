@@ -420,3 +420,19 @@ body {
 .fourofour {
   border: 1px solid $dark !important;
 }
+
+.contactform>input, .contactform>textarea {
+	width: 80%;
+	background-color: $dark;
+	color: $light;
+	border: 1px solid $light;
+	border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	resize: vertical;
+}
+
+.contactform>input[type=submit]:hover {
+	background-color: $primary;
+}
