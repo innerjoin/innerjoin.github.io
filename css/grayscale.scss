@@ -448,16 +448,21 @@ body {
 
 .contactform>input, .contactform>textarea {
 	width: 80%;
-	background-color: $dark;
-	color: $light;
-	border: 1px solid $light;
+	background-color: $primary-color;
+	color: $font-color;
+	border: 1px solid $font-color;
 	border-radius: 3px;
 	padding: 5px 10px 5px 10px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	resize: vertical;
+  outline: 0;
+}
+
+.contactform>input:focus, .contactform>textarea:focus {
+	border: 1px solid $secondary-color;
 }
 
 .contactform>input[type=submit]:hover {
-	background-color: $primary;
+	background-color: $secondary-color;
 }

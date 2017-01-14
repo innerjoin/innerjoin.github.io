@@ -60,7 +60,7 @@ lines: # You can add HTML Tags in the Text
   - text: "To iterate is human, to recurse divine. - L. Peter Deutsch"
   - text: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. - Bill Gates"
 
-me-img: "/img/me.jpg"
+me-img: "/img/me-dark.jpg"
 
 ##############################
 # Color the browser elements #
@@ -139,8 +139,8 @@ formspreeUrl: "http://formspree.io/lukas.steiger@hotmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "Lukas Steiger is a passionated software engineer and engineering student. He loves the nature and is a passionated concert and festival goer."
+author_blurb_image: "/img/me-dark.jpg"
 
 ##################
 # Social Buttons #
@@ -149,8 +149,7 @@ author_blurb_image: "/img/author.png"
 social:
   - title: "github"
     url: "https://github.com/innerjoin"
-  - title: "rss"
-    url: "/feed.xml"
+
 
 ############
 # 404 page #
@@ -162,9 +161,9 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-username: 
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
