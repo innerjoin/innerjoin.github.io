@@ -14,7 +14,7 @@ url: "www.lukassteiger.ch"
 
 baseurl: ""
 
-# Google tracking id to track your visitors
+# Google tracking id
 
 google-tracking-id: ""
 
@@ -35,6 +35,7 @@ description: "Personal blog and website of Lukas Steiger. All opinions expressed
 keywords: "Lukas, Steiger, programming, programmer, LukasSteiger, Switzerland, Einsiedeln"
 favicon: ""
 404-img: "/img/me.jpg"
+
 
 ################
 # Header layout #
@@ -61,6 +62,12 @@ lines: # You can add HTML Tags in the Text
 
 me-img: "/img/me.jpg"
 
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
 ################
 # Web app mode #
 ################
@@ -79,6 +86,8 @@ web-app-mode: False
 ########
 # Blog #
 ########
+
+enable-gesture-navigation: True
 
 post-preview-words: 96
 
@@ -122,6 +131,17 @@ timeline-img: "/img/me.jpg"
 email: "lukas.steiger@hotmail.com"
 formspreeUrl: "http://formspree.io/lukas.steiger@hotmail.com"
 
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "/img/author.png"
+
 ##################
 # Social Buttons #
 ##################
@@ -137,6 +157,14 @@ social:
 ############
 
 404-img: ""
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: johnsmith
+keybase-in-social: True
+keybase-in-footer: True
 
 ################################################################################
 
