@@ -32,9 +32,9 @@ lang: "en"
 author: "Lukas Steiger"
 title: "Lukas Steiger"
 description: "Personal blog and website of Lukas Steiger. All opinions expressed in this blog are mine and are not related to any institution or company I'm related to or blogging about."
-keywords: "Lukas, Steiger, programming, programmer, LukasSteiger, Switzerland, Einsiedeln"
-favicon: ""
-404-img: "/img/me.jpg"
+keywords: "Lukas, Steiger, programming, programmer, LukasSteiger, Lukas Steiger, Siemens, Switzerland, Einsiedeln, HSR"
+favicon: "../img/favicon-32x32.png"
+404-img: ""
 
 
 ################
