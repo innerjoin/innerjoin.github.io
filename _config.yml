@@ -22,7 +22,7 @@ google-tracking-id: ""
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: False
+force-https: true
 
 #############
 # HTML Head #
@@ -149,6 +149,8 @@ author_blurb_image: "/img/me-dark.jpg"
 social:
   - title: "github"
     url: "https://github.com/innerjoin"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/lukas-steiger"   
 
 
 ############
