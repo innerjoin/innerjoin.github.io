@@ -450,19 +450,21 @@ body {
 	width: 80%;
 	background-color: $primary-color;
 	color: $font-color;
-	border: 1px solid $font-color;
-	border-radius: 3px;
+	border: 3px solid $button-color;
+	border-radius: 5px;
 	padding: 5px 10px 5px 10px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	resize: vertical;
-  outline: 0;
+	outline: 0;
+}
+
+.contactform>input[type=submit] {
+	background-color: $button-color;
+	color: $secondary-color;
+	border-color: $button-color;
 }
 
 .contactform>input:focus, .contactform>textarea:focus {
-	border: 1px solid $secondary-color;
-}
-
-.contactform>input[type=submit]:hover {
-	background-color: $secondary-color;
+	border: 3px solid $button-color;
 }
