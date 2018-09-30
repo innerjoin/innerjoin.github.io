@@ -31,8 +31,8 @@ force-https: true
 lang: "en"
 author: "Lukas Steiger"
 title: "Lukas Steiger"
-description: "Personal blog and website. Lukas Steiger is a Software Engineer from Einsiedeln, Switzerland"
-keywords: "Lukas, Steiger, programming, programmer, LukasSteiger, Lukas Steiger, Siemens, Switzerland, Einsiedeln, HSR"
+description: "Personal blog and website. Lukas Steiger is a Software Engineer from Switzerland"
+keywords: "Lukas, Steiger, programming, programmer, LukasSteiger, Lukas Steiger, Siemens, Switzerland, HSR"
 favicon: "../img/favicon-32x32.png"
 404-img: ""
 
@@ -59,6 +59,8 @@ delete-delay: 6000
 lines: # You can add HTML Tags in the Text
   - text: "To iterate is human, to recurse divine. - L. Peter Deutsch"
   - text: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. - Bill Gates"
+  - text: "The human spirit must prevail over technology. – Albert Einstein"
+  - text: "Technology is nothing. What’s important is that you have a faith in people, that they’re basically good and smart, and if you give them tools, they’ll do wonderful things with them. – Steve Jobs"
 
 me-img: "/img/me-dark.jpg"
 
@@ -87,7 +89,7 @@ web-app-mode: False
 # Blog #
 ########
 
-enable-gesture-navigation: True
+enable-gesture-navigation: False
 
 post-preview-words: 96
 
@@ -97,11 +99,11 @@ email-share: True
 fb-share: True
 twitter-share: True
 linkedin-share: True
-reddit-share: False
+reddit-share: True
 google-plus-share: True
 tumblr-share: False
 pinterest-share: False
-pocket-share: True
+pocket-share: False
 vkontakte-share: False
 
 disqus-shortname: "innerjoin"
@@ -129,7 +131,7 @@ timeline-img: "/img/me.jpg"
 ###########
 
 email: "lukas.steiger@hotmail.com"
-formspreeUrl: "http://formspree.io/lukas.steiger@hotmail.com"
+formspreeUrl: "https://formspree.io/lukas.steiger@hotmail.com"
 
 ################
 # Author Blurb #
